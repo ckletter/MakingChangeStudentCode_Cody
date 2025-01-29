@@ -3,7 +3,7 @@
  * given a set of coins, how many ways can you make change for a target amount?
  *
  * @author Zach Blick
- * @author [YOUR NAME HERE]
+ * @author Cody Kletter
  */
 
 public class MakingChange {
@@ -12,7 +12,7 @@ public class MakingChange {
      *  for any given total with any given set of coins.
      */
     public static long countWays(int target, int[] coins) {
-        return 0;
+        return tryCoin(target, coins, 0, 0);
     }
     public static long tryCoin(int target, int[] coins, int sum, long totalCount) {
         // Base case, we have reached our target number from adding coins
