@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf08351e-8001-407c-880c-49b47a0a4156" name="Changes" comment="1/28 worklog">
+    <list default="true" id="bf08351e-8001-407c-880c-49b47a0a4156" name="Changes" comment="1/30">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WORK_LOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/WORK_LOG.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MakingChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MakingChange.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +51,7 @@
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
     &quot;JUnit.MakingChangeTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MakingChangeTest.testCorrectSmall.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MakingChangeTest.testEfficient.executor&quot;: &quot;Run&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
     &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
@@ -93,8 +93,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MakingChangeTest" />
-        <item itemvalue="JUnit.MakingChangeTest.testEfficient" />
         <item itemvalue="JUnit.MakingChangeTest.testCorrectSmall" />
+        <item itemvalue="JUnit.MakingChangeTest.testEfficient" />
       </list>
     </recent_temporary>
   </component>
@@ -123,13 +123,22 @@
       <option name="project" value="LOCAL" />
       <updated>1738126314393</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1/30">
+      <option name="closed" value="true" />
+      <created>1738277144987</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738277144987</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1/24 initial commit" />
     <MESSAGE value="1/28 worklog" />
-    <option name="LAST_COMMIT_MESSAGE" value="1/28 worklog" />
+    <MESSAGE value="1/30" />
+    <option name="LAST_COMMIT_MESSAGE" value="1/30" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
