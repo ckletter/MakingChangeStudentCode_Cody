@@ -17,7 +17,8 @@ public class MakingChange {
     public static long countWays(int target, int[] coins) {
         Arrays.sort(coins);
         long[][] numPathsTo = new long[coins.length][TARGET + 1];
-        return numPathsTo(coins, target, numPathsTo, 0);
+//        return numPathsTo(coins, target, numPathsTo, 0);
+        return tabulate(coins, numPathsTo, target);
     }
     public static long numPathsTo(int[] coins, int difference, long[][] numPathsTo, int currentCoinIndex) {
         // Base case, we have reached our target number from adding coins
@@ -42,5 +43,27 @@ public class MakingChange {
         // Loop through each coin less than the highest and subtract it from our difference
         numPathsTo[currentCoinIndex][difference] = numPathsTo(coins, difference - coins[currentCoinIndex], numPathsTo, currentCoinIndex) + numPathsTo(coins, difference, numPathsTo, currentCoinIndex + 1);
         return numPathsTo[currentCoinIndex][difference];
+    }
+    public static long tabulate(int[] coins, long[][] numPathsTo, int target) {
+        // Fill left side with ones (one path to)
+        for (int i = 0; i < coins.length; i++) {
+            numPathsTo[i][0] = 1;
+        }
+        // Loop through each location in our 2D array
+        for (int i = 0; i < coins.length; i++) {
+            for (int j = 1; j <= target; j++) {
+                int coin = coins[i];
+                // Check if adding coin gets us out of bounds
+                if ((j - coin) >= 0) {
+                    numPathsTo[i][j] += numPathsTo[i][j - coin];
+                }
+                // Check if not using coin gets us out of bounds
+                if ((i - 1) >= 0) {
+                    numPathsTo[i][j] += numPathsTo[i - 1][j];
+                }
+            }
+        }
+        // Return final tabulated number of paths
+        return numPathsTo[coins.length - 1][target];
     }
 }

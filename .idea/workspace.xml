@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf08351e-8001-407c-880c-49b47a0a4156" name="Changes" comment="1/30">
+    <list default="true" id="bf08351e-8001-407c-880c-49b47a0a4156" name="Changes" comment="2/4 added memoization">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MakingChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MakingChange.java" afterDir="false" />
     </list>
@@ -131,14 +131,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738277144987</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2/4 added memoization">
+      <option name="closed" value="true" />
+      <created>1738704301889</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738704301889</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1/24 initial commit" />
     <MESSAGE value="1/28 worklog" />
     <MESSAGE value="1/30" />
-    <option name="LAST_COMMIT_MESSAGE" value="1/30" />
+    <MESSAGE value="2/4 added memoization" />
+    <option name="LAST_COMMIT_MESSAGE" value="2/4 added memoization" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
